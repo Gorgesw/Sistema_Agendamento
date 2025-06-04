@@ -1,10 +1,1 @@
-# Ignore pastas comuns com muitos arquivos
-node_modules/
-vendor/
-venv/
-__pycache__/
-dist/
-build/
-*.log
-.env
-.DS_Store
+node_modules
