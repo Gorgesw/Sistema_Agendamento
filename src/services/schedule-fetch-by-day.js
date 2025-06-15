@@ -16,10 +16,8 @@ export async function scheduleFetchByDay({ date }) {
             dayjs(schedule.when).format("YYYY-MM-DD") === dayjs(date).format("YYYY-MM-DD")
         )
 
-
-
-
         return dailySchedules
+        
     } catch (error) {
         console.log(error)
         alert("Não foi possível buscar os agendamentos do dia selecionado")
